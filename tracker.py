@@ -1,6 +1,7 @@
 import pyodbc
 from flask import Flask, request, redirect
 from user_agents import parse
+import os
 
 app = Flask(__name__)
 
